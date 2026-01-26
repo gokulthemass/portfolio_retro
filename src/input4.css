@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+    --font-eightbit: "Press Start 2P", system-ui
+}
+
+
+.common {
+    @apply text-green-500 text-sm text-left leading-8;
+    @apply sm:w-fit lg:w-xl md:w-xl mx-auto px-10; 
+    font-family: var(--font-eightbit);
+}
+
+.heading_1 {
+    @apply text-green-500 text-3xl;
+    @apply border-2 border-green-500 shadow-xl shadow-green-700 bg-gray-900;
+    @apply w-fit mx-auto;
+    @apply px-4 py-2 pe-2 mb-3;
+    font-family: var(--font-eightbit);
+}
+
+.heading_2 {
+    @apply text-green-500 text-2xl; 
+    @apply border-2 border-green-500 shadow-xl shadow-green-700 bg-gray-900 ;
+    @apply w-fit mx-auto;
+    @apply px-4 py-2 pe-2 mb-3;    
+    font-family: var(--font-eightbit);
+}
+
+.lines {
+   @apply w-xl mx-auto;
+   @apply my-20 px-5;
+   @apply border-t-2 border-dashed border-green-500;
+}
+
+.small_lines {
+    @apply w-16;
+    @apply my-15 mx-auto;
+    @apply border-t-2 border-dashed border-green-500;
+}
+
+.date {
+    @apply text-green-500 text-2xl;
+    @apply mx-auto w-fit my-8;
+    font-family: var(--font-eightbit);
+} 
+
+.icon {
+    @apply text-green-500 text-lg;
+    @apply px-5 line-clamp-1;
+    @apply border-2  border-green-500 shadow;
+    font-family: var(--font-eightbit);
+}
+
+.skills {
+    @apply flex  flex-wrap justify-center items-center content-center gap-4 text-center;
+    @apply pb-10;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="output4.css">
+</head>
+
+<body class="w-screen h-screen bg-white dark:bg-black">
+
+
+
+
+    <div class="p-10">
+
+
+
+
+
+
+        <div class="fixed flex-col z-50">
+  <!-- Menu button -->
+  <i class="fa-solid fa-bars border-2 bg-black border-green-500 text-green-500 px-5 pr-8 py-2 " 
+     id="menuBtn" onclick="toggleMenu()"></i>
+
+  <!-- GitHub -->
+  <a href="https://github.com/gokulthemass">
+    <i class="fa-brands fa-github border-2 bg-black border-green-500 text-green-500 px-5 pr-8 py-2"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/gokulthemass">
+    <i class="fa-brands fa-linkedin-in border-2 bg-black border-green-500 text-green-500 px-5 pr-8 py-2 place-item"></i>
+  </a>
+</div>
+
+<div class="fixed right-6 flex flex-row gap-1 z-50 items-center">
+  <a href="mailto:gokulabc124@gmail.com">
+    <i class="fa-solid fa-g border-2 bg-black border-green-500 text-green-500 px-5 pr-8 py-2"></i>
+  </a>
+
+  <a href="https://docs.google.com/document/d/1hcCaUZ-nb6dQ4_KqPpVucOFEDvL2ZV8I/edit?usp=drive_link&ouid=115357583807182390107&rtpof=true&sd=true">
+  <i class="fa-solid fa-file font-eightbit font-thin border-2 bg-black border-green-500 text-green-500 px-5 pr-8 py-2"></i>
+  </a>
+</div>
+
+
+<!-- Fullscreen menu (lower z-index) -->
+<div id="menuDropdown" 
+     class="hidden fixed inset-x-0 top-0 w-screen h-screen flex flex-col border-b-2 border-green-500 bg-black pt-20 ps-6 z-40">
+
+  <a href="#about" class="font-eightbit text-green-500 hover:text-green-300 ps-5 py-5">
+    About
+  </a>
+  <a href="#projects" class="font-eightbit text-green-500 hover:text-green-300 ps-5 py-5">
+    Projects
+  </a>
+  <a href="#Contacts" class="font-eightbit text-green-500 hover:text-green-300 ps-5 py-5">
+    Contact
+  </a>
+</div>
+
+<script src="menu.js"></script>
+
+
+  <div class="w-fit grid grid-cols-2  place-items-center h-screen pt-10">
+    <div class="">
+    <p class=" text-green-500 text-base font-eightbit ps-10 py-10">Hi there!</p>
+    <p class=" text-black bg-green-500 text-xl text-left leading-8 w-fit mx-auto m-10 ms-10 ps-5 pr-2 mb-5 font-eightbit ">I'm Gokula Krishnan</p>
+    <p class="before:content-['•'] before:absolute before:left-9 relative text-green-500 text-base font-eightbit ps-15 py-2 pb-5 ">Front-end Developer</p>
+    <p class="text-green-500 text-base font-eightbit ps-10 py-5">Welcome to my Portfolio Website!</p>
+    </div>
+    <img src="./assets/image.png" alt="">
+
+    <div class="common col-span-2 flex justify-center items-center -mt-5">Scroll_down</div>
+  </div> 
+
+  <!-- <p class="common place-items-center">Scroll down!</p> -->
+
+<!--  heading -->
+        <p id="about" class="heading_1">Hi there</p>
+
+        <p class="common pt-5">I’m a Technically Proficient Front-end Developer, with a Advanced Skills in Javascript and Angular.</p>
+        <p class="common pt-5">I Have Experienced in Working with Backend Technologies like MySQL, and GraphQL, and I’m skilled in Styling using TailwindCSS.</p>
+        <p class="common pt-5">I Enjoy Coding practice, Problem-solving, and continuously learning new web technologies to enhance my development expertise.</p>
+        <p class="common pt-5">Below are details of some of the projects I have developed over for years of coding experience.</p>
+    
+        <div class="lines"></div>
+
+<!-- projects -->
+
+        <div id="projects" class="heading_1">Projects</div>
+        <div class="small_lines"></div>
+
+
+
+
+
+
+
+
+<!-- project 1 -->
+        <div class="heading_2">GO-CASH</div>
+        <div class="date">July - 2025</div>
+
+        <div class=" skills ">
+            <div class="icon ">Angular</div>
+            <div class="icon ">Javascript</div>
+            <div class="icon ">Web-Dev</div>
+        </div>
+
+        <div class="common ">GO-CASH is a live currency converter app that instantly converts between 170+ world currencies with real-time exchange rates. Users select from/to currencies, enter amounts, and see immediate results plus interactive charts showing 7-day rate trends. Fully responsive design works perfectly on mobile, tablet, and desktop screens.</div>
+        <div class="small_lines"></div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- project 2 -->
+
+        <div class="heading_2">8-BIT PORTFOLIO (THIS WEBSITE)</div>
+        <div class="date">October - 2025</div>
+
+
+
+        <div class=" skills ">
+            <div class="icon ">Angular</div>
+            <div class="icon ">TailwindCSS</div>
+            <div class="icon">Javascript</div>
+            <div class="icon ">Web-Dev</div>
+        </div>
+        
+        
+        
+        
+        <div class="common">Retro Portfolio Website features a top-to-bottom layout flowing from Summary through Projects showcase to Contacts section. Built with authentic retro pixel fonts, black and green 8-bit color theme (#000000, #00FF00), and pixelated hover animations that expand on interaction. Includes Angular-powered smooth scroll handling, dynamic terminal typing effects, and pixel-perfect responsive design adapting seamlessly across mobile, tablet, and desktop screens.</div>
+        <div>
+          <img src="" alt="">
+        </div>
+        <div class="small_lines"></div>
+
+        <!-- project 3 -->
+
+        <div class="heading_2">COST-CO  -  ONLINE E-COMMERCE SITE</div>
+        <div class="date">November - 2025</div>
+
+        <div class=" skills ">
+            <div class="icon ">Angular</div>
+            <div class="icon ">TailwindCSS</div>
+            <div class="icon">Javascript</div>
+            <div class="icon ">Web-Dev</div>
+        </div>
+
+        <div class="common">•	Multi-Price e-commerce: Ordinary Prices VS Member-exclusive discounts.</div>
+        <div class="common">•	Responsive frontend with HTML, Tailwind, Javascript, Angular.</div>
+        <div class="common">•	5-page SPA: Login → Products(main) → product_page → Cart → Payment Page.</div>
+
+
+
+        <div class="lines"></div>
+
+
+
+        <div class="grid h-50 grid-rows-2 place-items-center ">
+            <div id="Contacts" class="font-eightbit  text-5xl text-green-500">Contacts</div>
+            <div class="font-eightbit text-green-500  ">Reach out on <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-green-500 hover:text-green-300 underline" >linkedin</a></div>
+        </div>
+
+        <div class="lines"></div>
+
+        </div>
+   
+</body>
+</html>
