@@ -6,8 +6,8 @@
 
 
 .common {
-    @apply text-green-500 text-sm text-left leading-8;
-    @apply sm:w-fit lg:w-xl md:w-xl mx-auto px-10; 
+    @apply text-green-500 text-xs md:text-base lg:text-base text-left leading-8;
+    @apply sm:w-fit lg:w-2/4 md:w-3/4 mx-auto px-10; 
     font-family: var(--font-eightbit);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .lines {
-   @apply w-xl mx-auto;
+   @apply sm:w-xl lg:w-2/4 md:w-xl mx-auto;
    @apply my-20 px-5;
    @apply border-t-2 border-dashed border-green-500;
 }
