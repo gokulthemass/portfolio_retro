@@ -52,6 +52,13 @@
     font-family: var(--font-eightbit);
 }
 
+.iconred {
+    @apply text-red-500 text-lg;
+    @apply px-5 line-clamp-1;
+    @apply border-2  border-green-500 shadow;
+    font-family: var(--font-eightbit);
+}
+
 .skills {
     @apply flex  flex-wrap justify-center items-center content-center gap-4 text-center;
     @apply pb-10;
