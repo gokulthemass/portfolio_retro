@@ -737,3 +737,7 @@
     }
   }
 }
+
+@media (width < 40rem) {
+  .max-sm\:hidden { display: none; }
+}
